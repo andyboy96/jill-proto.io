@@ -1,0 +1,63 @@
+<head>
+<title>Jill</title>
+<link href="../assets/survey.css" rel="stylesheet">
+</head>
+
+<form id="survey-form">
+  <div id="start-survey">
+    <div class="start-survey-items">
+      <h1>Jill Intial Analysis</h1>
+      <p>Answer some of my questions, and I'll be able to help you better prepare for your financial goals</p>
+      <div>Start Survey</div>
+    </div>
+  </div>
+  <div id="previous-question">Previous Question</div>
+  <div id="survey-wrapper" class="owl-carousel">
+    <div class="survey-question">
+      <div class="question-items">
+        How comfortable are you with financial risk?
+        <input type="radio" name="group1" id="group1-option1" value="dogs"/>
+        <label for="group1-option1">My main concern is maintaing my current lifestyle</label>
+        or
+        <input type="radio" name="group1" id="group1-option2" value="cats"/>
+        <label for="group1-option2">I will take more risks to improve my current lifesyle</label>
+        
+      </div>
+    </div>
+    <div class="survey-question">
+      <div class="question-items">
+        How involved would you consider yourself with your finances?
+        <input type="radio" name="group2" id="group2-option1" value="long fur"/>
+        <label for="group2-option1">I monitor my finances almost everyday</label>,
+        <input type="radio" name="group2" id="group2-option2" value="short fur"/>
+        <label for="group2-option2">I like to keep track of my financial health but I have other priorities</label>
+        or
+        <input type="radio" name="group2" id="group2-option3" value="no fur"/>
+        <label for="group2-option3">I really take it easy with my finances</label>?
+      </div>
+    </div>
+    <div class="survey-question">
+      <div class="question-items">
+        How familiar are you with investing in any respect?     
+        <input type="radio" name="group4" id="group4-option1" value="large"/>
+        <label for="group4-option1">Large Pets</label>,
+        <input type="radio" name="group4" id="group4-option2" value="medium-sized"/>
+        <label for="group4-option2">Medium-sized Pets</label> or
+        <input type="radio" name="group4" id="group4-option3" value="small"/>
+        <label for="group4-option3">Small Pets</label>?
+      </div>
+    </div>
+    <div class="survey-results">
+      <div class="results-items">
+        <h2>You're done!</h2>
+        <p>
+          You prefer <span class="response-span" id="group4-response"></span> <span class="response-span" id="group1-response"></span> with <span class="response-span" id="group2-response"></span>.
+        </p>
+        <button id="start-over" type="reset">Start Over</button><button id="submit" type="submit">Submit Results</button>
+      </div>
+    </div>
+  </div>
+  <div id="progress-wrapper">
+    <div id="progress-bar" data-progress="0"></div>
+  </div>
+</form>
