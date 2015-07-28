@@ -51210,3 +51210,2948 @@ ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfo
   Rendered /Users/andrewbempah/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/andrewbempah/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/andrewbempah/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.4ms)
+
+
+Started GET "/" for ::1 at 2015-07-28 11:21:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1792ms (Views: 1771.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/flickity.self-d0d3567f18720d4523804353539a9e097812700c8dd0e4486107c7c48f970c7b.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/flickity2.self-068054c7136748cc7fbabfeae22e08c554cd244d7644c0edf81298350849b2a0.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/interests.self-e10e57dd49d42a9455c2c1b1b398796489eb8fcd7a4a766325ed1d6abfd18a70.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/survey.self-9bb2c5afe8047d0f4c80019e12b98e9407c0171d66f4d92fa29b8ae7abd11309.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/interests.self-be18af5fd653f8d0cbfb0959357d24c66b1df339821d2dc5a52f966e8314e9a6.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/flickity.self-57ad017277a24569797b7917a5079033648028a858ea6767d617bfc31a74dfe7.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/survey.self-10311942af421690b0c55e4a6eb790a2004c87307afc7efe34c68a1a6efb724c.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2015-07-28 11:21:44 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (106.5ms)
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 11:21:44 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2015-07-28 11:21:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.6ms)
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/fontawesome-webfont-199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1.woff" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 11:21:45 -0500
+
+
+Started GET "/" for ::1 at 2015-07-28 11:43:37 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 274ms (Views: 272.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/flickity2.self-068054c7136748cc7fbabfeae22e08c554cd244d7644c0edf81298350849b2a0.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/flickity.self-d0d3567f18720d4523804353539a9e097812700c8dd0e4486107c7c48f970c7b.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/interests.self-e10e57dd49d42a9455c2c1b1b398796489eb8fcd7a4a766325ed1d6abfd18a70.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/survey.self-9bb2c5afe8047d0f4c80019e12b98e9407c0171d66f4d92fa29b8ae7abd11309.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/flickity.self-57ad017277a24569797b7917a5079033648028a858ea6767d617bfc31a74dfe7.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/interests.self-be18af5fd653f8d0cbfb0959357d24c66b1df339821d2dc5a52f966e8314e9a6.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/survey.self-10311942af421690b0c55e4a6eb790a2004c87307afc7efe34c68a1a6efb724c.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 11:43:38 -0500
+
+
+Started GET "/" for ::1 at 2015-07-28 11:45:41 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 280ms (Views: 278.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/flickity2.self-068054c7136748cc7fbabfeae22e08c554cd244d7644c0edf81298350849b2a0.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/flickity.self-d0d3567f18720d4523804353539a9e097812700c8dd0e4486107c7c48f970c7b.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/interests.self-e10e57dd49d42a9455c2c1b1b398796489eb8fcd7a4a766325ed1d6abfd18a70.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/survey.self-9bb2c5afe8047d0f4c80019e12b98e9407c0171d66f4d92fa29b8ae7abd11309.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/flickity.self-57ad017277a24569797b7917a5079033648028a858ea6767d617bfc31a74dfe7.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/interests.self-be18af5fd653f8d0cbfb0959357d24c66b1df339821d2dc5a52f966e8314e9a6.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/survey.self-10311942af421690b0c55e4a6eb790a2004c87307afc7efe34c68a1a6efb724c.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 11:45:41 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 11:45:42 -0500
+
+
+Started GET "/" for ::1 at 2015-07-28 11:58:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 604ms (Views: 581.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/flickity2.self-068054c7136748cc7fbabfeae22e08c554cd244d7644c0edf81298350849b2a0.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/flickity.self-d0d3567f18720d4523804353539a9e097812700c8dd0e4486107c7c48f970c7b.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/interests.self-e10e57dd49d42a9455c2c1b1b398796489eb8fcd7a4a766325ed1d6abfd18a70.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/survey.self-9bb2c5afe8047d0f4c80019e12b98e9407c0171d66f4d92fa29b8ae7abd11309.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/flickity.self-57ad017277a24569797b7917a5079033648028a858ea6767d617bfc31a74dfe7.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/interests.self-be18af5fd653f8d0cbfb0959357d24c66b1df339821d2dc5a52f966e8314e9a6.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/survey.self-10311942af421690b0c55e4a6eb790a2004c87307afc7efe34c68a1a6efb724c.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 11:58:15 -0500
+
+
+Started GET "/" for ::1 at 2015-07-28 12:00:37 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 379ms (Views: 378.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 12:00:37 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 12:00:38 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:01:52 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:01:52 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:01:52 -0500
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-07-28 12:01:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (45.7ms)
+
+
+Started GET "/" for ::1 at 2015-07-28 12:42:23 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 553ms (Views: 532.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2015-07-28 12:42:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.5ms)
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2015-07-28 12:42:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.6ms)
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 12:42:24 -0500
+
+
+Started GET "/assets/fontawesome-webfont-199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1.woff" for ::1 at 2015-07-28 12:42:25 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 12:42:25 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 12:42:25 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 12:42:25 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 12:42:25 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 12:42:25 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:42:39 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:42:39 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:42:39 -0500
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-07-28 12:42:39 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (89.1ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2015-07-28 12:42:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.4ms)
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2015-07-28 12:42:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.7ms)
+
+
+Started GET "/" for ::1 at 2015-07-28 12:47:24 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 239ms (Views: 237.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:47:24 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-07-28 12:47:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.8ms)
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2015-07-28 12:47:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.7ms)
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2015-07-28 12:47:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.8ms)
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/fontawesome-webfont-199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1.woff" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 12:47:25 -0500
+
+
+Started GET "/" for ::1 at 2015-07-28 12:48:37 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 241ms (Views: 240.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 12:48:37 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/jquery.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-07-28 12:48:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.5ms)
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2015-07-28 12:48:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (36.9ms)
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2015-07-28 12:48:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.8ms)
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/fontawesome-webfont-199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1.woff" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 12:48:38 -0500
+
+
+Started GET "/" for ::1 at 2015-07-28 12:51:06 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 241ms (Views: 239.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 12:51:06 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 12:51:06 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 12:51:06 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/fonts/jquery.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/jquery.js"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.7ms)
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2015-07-28 12:51:07 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.5ms)
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-07-28 12:51:07 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.8ms)
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2015-07-28 12:51:07 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (74.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (94.1ms)
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/fontawesome-webfont-199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1.woff" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 12:51:07 -0500
+
+
+Started GET "/" for ::1 at 2015-07-28 12:53:15 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 244ms (Views: 243.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-a45a9bfaadeaebac83aacae1f078a5d8ace8f278426084e5be42370259858321.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/font-awesome.min.self-225bfea8911be322f5196b9f05b9ad89e006e377b30816ed15db35bad5212b1d.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/font-awesome.self-ddcbc33d34b780bd00e23546c807df19bd1dfae7ae5fd5014e393f388debdf6f.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/bootstrap.min.css" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/agency.css" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/font-awesome.min.css.erb" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/agency.self-a2d10368bce5eeda79aa62db611715c73119358956070ab8872a0024f864a52f.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-044226e1550b9924c5b3b7a6fbba48d9beb4ace62b4893cac588f4eeea038e60.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/contact_me.self-ca5524a8656c734c5330e731687d1ffeeb0ed9e466978e6ec55cb28a61cbd867.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/jquery-easing.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:53:15 -0500
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/fonts/jquery.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/jquery.js"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (48.1ms)
+
+
+Started GET "/assets/bootstrap.min.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/jquery-easing.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/classie.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/cbpAnimatedHeader.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/jqBootstrapValidation.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/contact_me.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/agency.js" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2015-07-28 12:53:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.2ms)
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-07-28 12:53:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (36.1ms)
+
+
+Started GET "/assets/header-woman.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2015-07-28 12:53:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (83.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (102.4ms)
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/team/mohsen.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/team/andrew.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/fontawesome-webfont-199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1.woff" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/team/rocco.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/logos/jitta.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/logos/robinhood-logo.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/logos/acorn.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/logos/yahoo-logo.jpg" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2015-07-28 12:53:16 -0500
+
+
+Started GET "/assets/map-image.png" for ::1 at 2015-07-28 12:53:16 -0500
