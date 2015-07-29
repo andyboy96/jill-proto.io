@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  devise_for :views
   get 'welcome/homepage'
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -9,6 +11,7 @@ Rails.application.routes.draw do
   get '/gallery', to: 'pages#gallery'
   get '/interests2', to: 'pages#interests2'
   get '/survey', to: 'pages#survey'
+  get '/about',  to: 'pages#about'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -7,4 +7,6 @@ class PagesController < ApplicationController
 
 	def survey
 	end
+	def about
+	end
 end

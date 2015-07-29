@@ -872,3 +872,13 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #FF4400;
 }
+/* this formatting effects our sign up form*/
+header .intro2-body {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.form-group{
+    color: #FF4400;
+    text-align: left;
+    text-decoration: none;
+}
