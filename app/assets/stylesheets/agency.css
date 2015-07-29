@@ -882,3 +882,22 @@ header .intro2-body {
     text-align: left;
     text-decoration: none;
 }
+/*this effects our about page*/
+#whatis{
+    color:#00BFB3 ;
+}
+#faq{
+    color: #00BFB3;
+    
+}
+#didyou {
+    color: #00BFB3;
+
+}
+#aboutsplash{
+    background-image: url("../assets/CITY-LIFE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
