@@ -41,7 +41,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #FF4400;
 }
 
 h1,
@@ -81,9 +81,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #FF4400;
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF4400;
 }
 
 .btn-primary:active,
@@ -133,9 +133,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #FF4400;
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF4400;
 }
 
 .btn-xl:active,
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF4400;
 }
 
 @media(min-width:768px) {
@@ -658,68 +658,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#signup {
     background-color: #222;
     background-image: url("../assets/map-image.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#signup .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#signup .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#signup .form-group input,
+section#signup .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#signup .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#signup .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#signup .form-control:focus {
     border-color: #FF4400;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#signup::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#signup:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#signup::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#signup:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#signup .text-danger {
     color: #e74c3c;
 }
 
@@ -888,7 +888,7 @@ header .intro2-body {
 }
 #faq{
     color: #00BFB3;
-    
+
 }
 #didyou {
     color: #00BFB3;
