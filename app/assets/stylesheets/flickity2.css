@@ -1,0 +1,40 @@
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif;
+
+  background: rgba(190,118,125,0.4)
+}
+
+.gallery {
+  opacity: 0.8;
+  background: #FF4400;
+}
+
+.gallery img {
+  display: block;
+  height: 200px;
+  padding: 10px 30px;
+}
+
+.caption {
+  background: #FF4400;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+}
+
+.flickity-page-dots {
+  bottom: -60px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .gallery img {
+    height: 400px;
+  }
+}

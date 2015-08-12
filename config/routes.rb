@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#homepage'
+  get '/interests', to: 'pages#interests'
   get '/gallery', to: 'pages#gallery'
   get '/interests2', to: 'pages#interests2'
   get '/survey', to: 'pages#survey'
